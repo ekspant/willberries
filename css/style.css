@@ -39,6 +39,8 @@ body {
   display: flex;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 .button-icon,
 .button-price {
@@ -112,11 +114,11 @@ body {
   padding-bottom: 80px;
 }
 .card-1 {
-  background: #e3e2e3 url('../img/card-image-1.png') no-repeat top right;
+  background: #e3e2e3 url('../img/card-image-1.jpg') no-repeat top right;
   background-size: cover;
 }
 .card-2 {
-  background: #e3e2e3 url('../img/card-image-2.png') no-repeat top right;
+  background: #e3e2e3 url('../img/card-image-2.jpg') no-repeat top right;
   background-size: cover;
 }
 .card-3 {
@@ -186,7 +188,9 @@ body {
   padding-top: 30px;
   padding-bottom: 35px;
   padding-left: 35px;
-  padding-right: 35px;
+  padding-right: 35px; 
+  text-decoration: none;
+  display: block;
 }
 .goods-card .label {
   position: absolute;
